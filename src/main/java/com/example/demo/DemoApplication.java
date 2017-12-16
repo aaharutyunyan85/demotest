@@ -16,7 +16,7 @@ public class DemoApplication implements ApplicationContextAware {
 	void startup(){
 		System.out.println("Hello");
 		DBconnectionImpl bean = applicationContext.getBean(DBconnectionImpl.class);
-		bean.connect("vsdjasj,dajdh");
+		bean.connect("connected to this URL");
 		System.out.println(bean);
 
 	}
